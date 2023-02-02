@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  /* border: solid red; */
+  height: 17vh;
+  background-image: url("./imagens/header.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  width: 70vw;
+  margin-left: 30px;
+  font-family: "Amatic SC", cursive;
+  font-size: 70px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 170vh;
+  background-image: url("./imagens/main.png");
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 152vh;
+  width: 65vw;
+  margin-top: 5vh;
+  /* border: solid pink; */
+  background-color: #ffcdc8;
+  border-radius: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-family: "Amatic SC", cursive;
+  font-size: 40px;
+}
+
+img {
+  margin-top: 20px;
+  width: 25vw;
+  height: 40vh;
+}
+
+.ulPrincipal {
+  margin-top: 20px;
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  /* border: solid red; */
+}
+
+.ulPassos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.ulIngredientes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 30px;
+  list-style: none;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  height: 3vh;
+  width: 6vw;
+  border: solid orange;
+  border-radius: 10px;
+  background-color: orange;
+  font-size: 15px;
+}
+
+.liPreparo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.liIngredientes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: solid violet; */
+}
+
+.liFinalização {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: solid violet; */
+}
+
+.h4Finalização {
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.h4Preparo,
+.h4Ingredientes,
+.h4Finalização {
+  border: solid #97de75;
+  width: 15vw;
+  background-color: #97de75;
+}
+
+.imgGif {
+  width: 100px;
+  height: 100px;
+}
